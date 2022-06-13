@@ -12,5 +12,4 @@ microservice:
     endpoints:
       endpoint:
         uri: http://FRAUD-SERVICE/fraud-check/
-customer:
   message : "to check config server after change"
