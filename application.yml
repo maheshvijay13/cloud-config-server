@@ -1,0 +1,16 @@
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8040/eureka
+  instance:
+    hostname: localhost
+    
+microservice:
+  fraud-service:
+    endpoints:
+      endpoint:
+        uri: http://FRAUD-SERVICE/fraud-check/
+customer:
+  message : "to check config server after change"
